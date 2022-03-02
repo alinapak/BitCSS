@@ -1,0 +1,61 @@
+body {
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   background-color:rgba(128, 128, 128, 0.171);
+}
+h1 {
+   background-color:#aa8c3b;
+   padding:20px;
+}
+h1:hover {
+   color:#20c997;
+}
+h1::first-letter {
+   color:#20c997;
+}
+
+h2 {
+  border-style:dashed;
+  border-color:#aa8c3b;
+  border-width:10px;
+  background-color: #20c997;
+  padding:10px;
+}
+h3 {
+   text-align: center;
+   border-style: solid;
+   border-radius:50%;
+   background-color: #20c99649;
+}
+p a:active {
+   background-color:#20c997;
+}
+p a {
+   text-decoration: none;
+   color:black;
+}
+p a:hover {
+   color:#20c997;
+}
+.recipe-grid {
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.box {
+  padding:20px;
+text-align: justify;
+border-style: solid;
+border-color:white;
+}
+.box:first-child {
+   background-color: aliceblue;
+}
+.box:nth-child(2) {
+   background-color: rgba(245, 245, 222, 0.568);
+}
+.box:last-child {
+   background-color: azure;
+}
+#underline {
+   text-decoration: underline;
+}
