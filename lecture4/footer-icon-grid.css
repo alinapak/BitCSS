@@ -34,6 +34,7 @@ section {
 section div {
   display: grid;
   justify-items: center;
+  align-content: center;
   line-height: 0;
 }
 h2 {
